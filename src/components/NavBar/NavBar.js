@@ -1,22 +1,27 @@
 import React from 'react'
+import './NavBar.css'
+import Logo from './logo.png'
+import Search from './search.svg'
 
 class NavBar extends React.Component{
 	render(){
 		return(
-			<div>
-				<div>LOGO</div>
+			<header>
+				<div>
+					<img src={Logo} alt='Logo'/>
+				</div>
 				<div>
 					<select>
 						<option>Produtos</option>
 					</select>
 					<input />
-					<button>Buscar</button>
+					<button className='search'><img src={Search}/></button>
 				</div>
 				<div>
-					<button>Add Produto</button>
-					<button>Entrar</button>
+					<button className="addProduto" onClick={this.props.addProduto}>Add Produto</button>
+					<button className="entrar" >Entrar</button>
 				</div>
-			</div>
+			</header>
 		)
 	}
 }

@@ -1,11 +1,12 @@
 import React from 'react'
 import BannerLateral from './BannerLateral.jpg'
+import './SideColumn.css'
 
 class SideColumn extends React.Component{
 	render(){
 		return(
 			<div>
-				<div>
+				<div className="sideColumn">
 					<h3>Categorias</h3>
 					<div>Acessórios</div>
 					<div>Aniversário e Festas</div>
@@ -25,12 +26,12 @@ class SideColumn extends React.Component{
 					<div>Papel e Cia</div>
 					<div>Pets</div>
 				</div>
-				<div>
+				<div className="sideColumn">
 					<h3>Materiais de Artesanato</h3>
 					<div>Bijuterias e acessórios</div>
 					<div>Papel e scrapbooking</div>
 					<div>Patchwork e costura</div>
-					<div>Ver Todos</div>
+					<div className='verTodos'>Ver Todos  →</div>
 					<img src={BannerLateral}/>
 				</div>
 			</div>
