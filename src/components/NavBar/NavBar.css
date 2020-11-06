@@ -14,46 +14,55 @@ header {
 header select,
 header input,
 .search{
-	border:1px solid #999591;
-	color:#999591;
+	border:1px solid #5CACB2;
+	color:#5CACB2;
+	font-weight: 600;
 }
 header select{
 	border-radius: 4px 0 0 4px;
-	width:80px;
+	width:100px;
 	height:30px;
-	background:#F4F5F7;
+	font-size: 16px;
+	background:#5CACB250;
 }
 header input{
 	border-radius:  0 4px 4px 0;
 	width:250px;
 	height:26px;
+	font-size: 16px;
 }
 .search{
-	border:1px solid #999591;
+	border: 1px solid #5CACB2;
+	border-radius: 4px;
 	color:#999591;
 	margin:0 5px ;
 	position: relative;
-	border-radius:4px;
 	height:30px;
 	width:30px;
 	cursor:pointer;
+	background: #5CACB240;
 }
 .search img{
-	width:10px;
-	height:10px;
+	width:15px;
+	height:15px;
 }
 .addProduto,
 .entrar{
-	border:none;
-	background: transparent;
-	color:#5CACB2;
+	border:1px solid #5CACB2;
+	background: #5CACB2;
+	padding:5px 10px;
+	border-radius:4px;
+	margin:0 10px;
+	color:#fff;
 	font-weight:600;
 	font-size:16px;
 	cursor:pointer;
+	transition: .6s ease-in-out;
 }
 .addProduto:hover,
 .entrar:hover{
-	color:#5CACB290;
+	background: #fff;
+	color:#5CACB2;
 }
 input:focus,
 button:focus,

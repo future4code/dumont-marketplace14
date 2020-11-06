@@ -71,7 +71,7 @@
 	height:40px;
 	border-radius:4px;
 	color:#fff;
-	background: #5CACB2;
+	background: #eab831;
 	border:none;
 	cursor: pointer;
 	font-size:16px;
@@ -81,7 +81,7 @@ h2{
 	grid-column:1/5;
 	text-align:left;
 	text-transform: uppercase;
-	color:#5CACB2;
+	color:#eab831;
 	padding:20px 5%;
 	border-bottom:2px dotted #5CACB2;
 }
@@ -118,9 +118,11 @@ select:focus{
 	color:red;
 	padding:5px 10px;
 	margin: 20px 10px 20px 20px;
-	border:1px solid red;
-	border-radius:4px;
+	background:#eab831;
+	color:#fff;
+	border-radius:50%;
 	font-size:22px;
+	font-family: arial;
 }
 .fechar{
 	text-align:right;
