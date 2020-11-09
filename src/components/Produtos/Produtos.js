@@ -1,5 +1,7 @@
 import React from 'react'
 import './Produtos.css'
+import image2 from './image2.png'
+import picture from './imagem.png'
 
 
  class ProdutosCard extends React.Component {
@@ -7,43 +9,39 @@ import './Produtos.css'
     {
         return(
             <div className="produtos">
-             
-             <div>
-                <img src={'https://picsum.photos/200/200'}/> 
+            <div>
+              <img src={image2} alt='imagem'/>
+            </div>
+             <div className="produto1">
+                <img src={picture}/> 
                  <p>Produto1</p>
                  <h5> 100,00</h5>
-                 <button>Deletar produto</button>s
+                 <p>Até 12x sem juros</p>
+                 <button>Deletar produto</button>
              </div>  
-              <div>
-                <img src={'https://picsum.photos/200/200'}/> 
-                 <p>Produto1</p>
+             <div className="produto1">
+                <img src={picture}/> 
+                 <p>Produto2</p>
                  <h5> 100,00</h5>
-                 <button>Deletar produto</button>s
+                 <p>Até 12x sem juros</p>
+                 <button>Deletar produto</button>
              </div>         
-              <div>
-                <img src={'https://picsum.photos/200/200'}/> 
-                 <p>Produto1</p>
+             <div className="produto1">
+                <img src={picture}/> 
+                 <p>Produto3</p>
                  <h5> 100,00</h5>
-                 <button>Deletar produto</button>s
+                 <p>Até 12x sem juros</p>
+                 <button>Deletar produto</button>
              </div>  
-              <div>
-                <img src={'https://picsum.photos/200/200'}/> 
-                 <p>Produto1</p>
+             <div className="produto1">
+                <img src={picture}/> 
+                 <p>Produto4</p>
                  <h5> 100,00</h5>
-                 <button>Deletar produto</button>s
+                 <p>Até 12x sem juros</p>
+                 <button>Deletar produto</button>
              </div>  
-              <div>
-                <img src={'https://picsum.photos/200/200'}/> 
-                 <p>Produto1</p>
-                 <h5> 100,00</h5>
-                 <button>Deletar produto</button>s
-             </div>  
-              <div>
-                <img src={'https://picsum.photos/200/200'}/> 
-                 <p>Produto1</p>
-                 <h5> 100,00</h5>
-                 <button>Deletar produto</button>s
-             </div>     
+         
+      
         </div>
         )
         

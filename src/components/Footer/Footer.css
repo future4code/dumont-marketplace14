@@ -1,0 +1,35 @@
+.Footer{
+ 
+    display: grid;
+   
+    color: #6f8597;
+    
+	
+   
+}
+li{
+    list-style:none;
+    display: inline-block;
+    margin-left: 350px;
+}
+input {
+    width:100px;
+	height:15px;
+}
+.botao{
+    background-color: rgb(225, 189, 74);
+}
+.botao:hover{
+    background: #fff;
+	color: rgb(225, 189, 74);
+
+}
+.news{
+    color: rgb(232, 104, 19);
+}
+.cd1 .cd2 .cd3 .cd4 {
+    width:20px;
+    
+    display: inline;
+}
+
