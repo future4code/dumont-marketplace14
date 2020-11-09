@@ -1,46 +1,63 @@
 .produtos{
-	width:60%;
-	margin-left:10px;
+	width:70%;
 	display:flex;
-	flex-wrap:wrap;
-	
-	gap: 75px;
-	margin-top: 10px;
-	padding: 30px; 
+	flex-wrap: wrap;
 	
 }
-.produto1 {
-
-	margin-top: 10px;
-	margin-bottom: 90px;
-	margin-left: 20px;
-	 
+.produto {
+	display: flex;
+	flex-direction: column;
+	width:calc(50% - 40px);
+	margin:10px;
+	height:550px;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 2px 2px 5px #ddd;
+	padding:20px 0;
 }
-img {
-	
-	margin-left:60px;
-	
-
+.produto .imgProduto{
+	width:300px;
+	height:300px;
+	overflow: hidden;
+	position: relative;
+	margin:10px auto;
 }
-p{
-	color: gray;
-	font-size: 15px;
-	font-family: sans-serif;
+.produto img {
+	width:120%;
+	height:auto;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.produto h3 {
+	color:#5cacb2;
+	font-weight: 600;
+}
+.produto h2 span {
+	color:#888;
+	border-left:1px solid #888;
+	padding-left:10px;
+	text-transform: none;
+	font-size: 16px;
+	display:block;
+	margin:5px auto;
+}
+.produto h2 span:before{
+	content:'Categoria:';
 }
 button {
-	
-	background: rgb(232, 104, 19);
-	padding:5px 3px;
-	border-radius:6px;
-	margin:0 10px;
-	color:black;
-	font-weight:400;
-	font-size:16px;
-	cursor:pointer;
-	transition: .6s ease-in-out;
+	padding:10px;
+    border-radius: 4px;
+    color: #fff;
+    background:  rgb(232, 104, 19) ;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
 
 }
 button:hover{
-	background: #fff;
-	color: rgb(232, 104, 19);
+	background:#eab831;
+	color: #fff;
 }
