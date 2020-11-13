@@ -1,0 +1,28 @@
+.sideColumn{
+	display:block;
+	width:40%;
+}
+.sideColumn h3{
+	text-align: left;
+	width:90%;
+	margin:0 auto;
+	padding:10px;
+	text-transform: uppercase;
+}
+.sideColumn div{
+	text-align: left;
+	width:90%;
+	margin:0 auto;
+	padding:5px;
+	color:#888;
+	cursor:pointer;
+}
+.sideColumn div:hover{
+	color:#ccc;
+}
+.sideColumn .verTodos{
+	color:#5CACB2;
+}
+.sideColumn img{
+	margin:10px 5%;
+}
